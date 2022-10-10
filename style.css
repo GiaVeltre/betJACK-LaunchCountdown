@@ -1,0 +1,66 @@
+@font-face {
+    src: url(/Users/giaveltre/Desktop/Countdown/Font/ProximaNovaA-Regular.otf);
+    font-family: ProximaNovaA-Regular;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ProximaNovaA-Regular;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(https://cdn.shopify.com/s/files/1/0576/6424/1717/files/background.jpg?v=1665423148);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    
+}
+
+.logo {
+    width: 500px;
+    padding: 40px 0;
+    cursor: pointer;
+   position: absolute;
+}
+
+.content {
+    top: 60%;
+    position: absolute;
+    transform: translateY(-60%);
+    color: black;
+}
+
+.content {
+    font-size: 60px;
+    font-weight: 1000;
+}
+.content h1 span {
+    color: #ab2328;
+}
+.content button {
+    background: transparent;
+    border: 2px solid #000;
+    outline: none;
+    padding: 12px 25px;
+    color: #000;
+}
+
+.launch-time {
+    display: flex;
+}
+.launch-time div {
+    flex-basis: 500px;
+}
+
+.launch-time div p {
+    font-size: 100px;
+}
+*h6 {
+    font-size: 20px;
+    font-weight: 100;
+}
